@@ -1,0 +1,13 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
