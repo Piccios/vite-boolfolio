@@ -1,19 +1,31 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script>
+import MainHeader from './components/MainHeader.vue'
+import AppMain from './components/AppMain.vue'
+import MainFooter from './components/MainFooter.vue'
+
+
+export default {
+  name: "",
+  components: {
+    MainHeader,
+    AppMain,
+    MainFooter
+  }
+}
 </script>
 
 <template>
   <header>
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <MainHeader />
   </header>
 
   <main>
-    
+    <AppMain />
   </main>
+
+  <footer>
+    <MainFooter />
+  </footer>
 </template>
 
 <style scoped>
