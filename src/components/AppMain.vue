@@ -19,7 +19,8 @@ export default {
                     console.log(response.data.results.data);
                     this.projects = response.data.results.data;
                 })
-                .catch(function (error) {
+                .catch((error) => {
+                    this.projects.push({name: "404-not-found"})
                     console.log(error);
                 })
         }
