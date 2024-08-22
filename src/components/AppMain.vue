@@ -49,7 +49,8 @@ export default {
     </div>
 </template>
 
-<style lang="scss">.project-card {
+<style lang="scss">
+.project-card {
     transition: transform 0.2s ease-in-out;
 
     &:hover {
