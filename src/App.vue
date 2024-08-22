@@ -20,6 +20,9 @@ export default {
   </header>
 
   <main>
+    <Router-view>
+
+    </Router-view>
     <AppMain />
   </main>
 
