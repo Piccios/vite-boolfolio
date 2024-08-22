@@ -21,7 +21,7 @@
         align-items: center;
         height: 100vh;
         text-align: center;
-        background-color: #f8f9fa; /* Colore di sfondo chiaro */
+        background-color: #f8f9fa; 
     }
 
     .error-image {
@@ -32,19 +32,19 @@
         
     h1 {
         font-size: 2.5rem;
-        color: #343a40; /* Colore del testo */
+        color: #343a40; 
         margin-bottom: 10px;
     }
         
     p {
         font-size: 1.2rem;
-        color: #6c757d; /* Colore del testo secondario */
+        color: #6c757d; 
         margin-bottom: 20px;
     }
     
     .home-link {
         font-size: 1.2rem;
-        color: #007bff; /* Colore del link */
+        color: #007bff; 
         text-decoration: none;
     }
     
