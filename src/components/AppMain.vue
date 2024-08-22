@@ -32,7 +32,7 @@ export default {
 
 <template>
     <div class="container my-5">
-        <div class="row" v-if="projects.length">
+        <div class="row  d-flex justify-content-center" v-if="projects.length">
             <div class="col-md-4 mb-4" v-for="project in projects" :key="project.id">
                 <div class="card project-card">
                     <div class="card-body">
